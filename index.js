@@ -1,4 +1,4 @@
-import { nanoid } from 'nanoid'
+import { nanoid } from 'nanoid';
 
 class IdGenerator {
 	static _lengthLong = null;
