@@ -27,6 +27,14 @@ class IdUtility {
 	static setLengthShort(length) {
 		IdUtility._lengthShort = length;
 	}
+
+	static translateToShortId(id) {
+		return id;
+	}
+
+	static translateToId(id) {
+		return id;
+	}
 }
 
 export default IdUtility;
