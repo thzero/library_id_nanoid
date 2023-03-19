@@ -1,0 +1,26 @@
+{
+  "name": "@thzero/library_id_nanoid",
+  "type": "module",
+  "version": "0.17.0",
+  "version_major": 0,
+  "version_minor": 17,
+  "version_patch": 0,
+  "version_date": "03/19/2023",
+  "author": "thZero",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thzero/library_id_nanoid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thzero/library_id_nanoid/issues"
+  },
+  "homepage": "https://github.com/thzero/library_id_nanoid#readme",
+  "scripts": {
+    "cli-update": "library-cli --updateversion --pi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.1"
+  }
+}
