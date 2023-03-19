@@ -9,17 +9,10 @@ export default () => {
         },
         {
             category: 'client',
-            name: 'short-uuid',
-            url: 'https://github.com/oculus42/short-uuid',
+            name: 'nanoid',
+            url: 'https://github.com/ai/nanoid',
             licenseName: 'MIT',
-            licenseUrl: 'https://github.com/oculus42/short-uuid/blob/develop/LICENSE'
-        },
-        {
-            category: 'client',
-            name: 'uuid',
-            url: 'https://github.com/kelektiv/node-uuid',
-            licenseName: 'MIT',
-            licenseUrl: 'https://github.com/kelektiv/node-uuid/blob/master/LICENSE.md'
+            licenseUrl: 'https://github.com/ai/nanoid/blob/main/LICENSE'
         },
         {
             category: 'server',
@@ -30,17 +23,10 @@ export default () => {
         },
         {
             category: 'server',
-            name: 'short-uuid',
-            url: 'https://github.com/oculus42/short-uuid',
+            name: 'nanoid',
+            url: 'https://github.com/ai/nanoid',
             licenseName: 'MIT',
-            licenseUrl: 'https://github.com/oculus42/short-uuid/blob/develop/LICENSE'
+            licenseUrl: 'https://github.com/ai/nanoid/blob/main/LICENSE'
         },
-        {
-            category: 'server',
-            name: 'uuid',
-            url: 'https://github.com/kelektiv/node-uuid',
-            licenseName: 'MIT',
-            licenseUrl: 'https://github.com/kelektiv/node-uuid/blob/master/LICENSE.md'
-        }
     ];
 }

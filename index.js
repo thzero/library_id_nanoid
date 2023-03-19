@@ -1,31 +1,31 @@
 import { nanoid } from 'nanoid'
 
-class IdUtility {
+class IdGenerator {
 	static _lengthLong = null;
 	static _lengthShort = null;
 
 	static generateId() {
-		return IdUtility.generateLongId();
+		return IdGenerator.generateLongId();
 	}
 
 	static generateLongId() {
-		if (IdUtility._lengthLong)
-			return nanoid(IdUtility._lengthLong);
+		if (IdGenerator._lengthLong)
+			return nanoid(IdGenerator._lengthLong);
 		return nanoid();
 	}
 
 	static generateShortId() {
-		if (IdUtility._lengthShort)
-			return nanoid(IdUtility._lengthShort);
+		if (IdGenerator._lengthShort)
+			return nanoid(IdGenerator._lengthShort);
 		return nanoid();
 	}
 
 	static setLengthLong(length) {
-		IdUtility._lengthLong = length;
+		IdGenerator._lengthLong = length;
 	}
 
 	static setLengthShort(length) {
-		IdUtility._lengthShort = length;
+		IdGenerator._lengthShort = length;
 	}
 
 	static translateToShortId(id) {
@@ -37,4 +37,4 @@ class IdUtility {
 	}
 }
 
-export default IdUtility;
+export default IdGenerator;
