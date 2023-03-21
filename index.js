@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 class IdGenerator {
 	static _lengthLong = null;
-	static _lengthShort = null;
+	static _lengthShort = 16;
 
 	static generateId() {
 		return IdGenerator.generateLongId();
