@@ -5,6 +5,10 @@ class IdGenerator {
 	static _lengthShort = 16;
 	static _generator = nanoid;
 
+	static init(alphabet) {
+		return customAlphabet(alphabet);
+	}
+
 	static generateId() {
 		return IdGenerator.generateLongId();
 	}
