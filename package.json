@@ -1,11 +1,11 @@
 {
   "name": "@thzero/library_id_nanoid",
   "type": "module",
-  "version": "0.18.7",
+  "version": "0.18.8",
   "version_major": 0,
   "version_minor": 18,
-  "version_patch": 7,
-  "version_date": "03/03/2025",
+  "version_patch": 8,
+  "version_date": "03/10/2025",
   "author": "thZero",
   "license": "MIT",
   "repository": {
@@ -22,6 +22,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "nanoid": "^5.1.2"
+    "nanoid": "^5.1.3"
   }
 }
