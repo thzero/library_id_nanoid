@@ -1,11 +1,11 @@
 {
   "name": "@thzero/library_id_nanoid",
   "type": "module",
-  "version": "0.19.7",
+  "version": "0.19.8",
   "version_major": 0,
   "version_minor": 19,
-  "version_patch": 7,
-  "version_date": "10/03/2026",
+  "version_patch": 8,
+  "version_date": "11/09/2026",
   "author": "thZero",
   "author_url": "https://www.thzero.com",
   "copyright": "2020-2026",
@@ -29,7 +29,7 @@
     "test": "node --test \"test/*.test.js\""
   },
   "dependencies": {
-    "nanoid": "^6.0.1"
+    "nanoid": "^6.0.2"
   },
   "devDependencies": {
     "eslint": "^10"
